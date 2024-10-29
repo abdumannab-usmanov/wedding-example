@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Таклифнома</title>
+  </head>
+  <body>
+    <div class="invitation">
+      <header>
+        <h1>Ассалому алейкум азиз мехмонимиз</h1>
+        <p>
+          Сизларни 2024-йил 09-ноябрь куни азиз фарзандларимизнинг никох
+          туйлари муносабати билан булиб утадигон нахорги нонуштага лутфан
+          таклиф этамиз!!!
+        </p>
+        <p>
+          <strong> Хурмат ва эхтиром ила, Абидовлар оиласи </strong>
+        </p>
+      </header>
+      <section class="details">
+        <!-- <p><strong>Bayramni boshlash vaqti:</strong> 24.09.2024 / soat 6:43</p> -->
+        <p><strong>Манзил:</strong>Турон Фурмунова № 115</p>
+        <p><strong>Мужал:</strong> ЭМУ</p>
+        <a
+          href="https://2gis.kg/osh/geo/70030076150100177"
+          target="_blank"
+          class="map-button"
+          >Карта орқали очиш</a
+        >
+      </section>
+      <div class="countdown">
+        <div id="days" class="time">10 <span>kun</span></div>
+        <div id="hours" class="time">3 <span>soat</span></div>
+        <div id="minutes" class="time">20 <span>daqiqalar</span></div>
+        <div id="seconds" class="time">00 <span>soniyalar</span></div>
+      </div>
+      <audio id="audioPlayer" loop>
+        <source src="audio.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <button id="playPauseBtn" onclick="togglePlayPause()">
+        ▶️ Play Music
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
